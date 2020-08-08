@@ -1,0 +1,60 @@
+<!-- start header -->
+<header class="intro  align-items-center  jarallax" data-speed="0.5" data-img-position="50% 40%"
+  style="background-image: url('../../../../assets/img/bg/bg_5.jpg');">
+
+  <div class="pattern" style="opacity: 0.5;"></div>
+
+  <div class="container">
+    <div class="intro__text">
+      <p class="intro__subtitle">company</p>
+      <h1 class="intro__title">Blog</h1>
+    </div>
+  </div>
+</header>
+<!-- end header -->
+
+<main role="main">
+  <!-- start section -->
+  <section class="section">
+    <div class="container">
+      <div class="blog blog--style-1">
+        <div class="blog__inner">
+          <div class="row  js-isotope"
+            data-isotope-options='{ "itemSelector": ".js-isotope__item", "transitionDuration": "0.8s", "percentPosition": "true", "masonry": { "columnWidth": ".js-isotope__grid-sizer" }}'>
+
+            <!-- start item -->
+            <div class="col-12 col-md-6 col-lg-4  js-isotope__item" *ngFor="let item of [1,2,3,4,5,6]; let i=index">
+              <div class="blog__item  mx-auto">
+                <figure>
+                  <img class="img-fluid" src="../../../../assets/img/blog_img/1.jpg" alt="demo" />
+                </figure>
+
+                <div class="blog__entry">
+                  <div class="blog__post-date">
+                    <span>23</span>
+                    <span>JUL<br />2016</span>
+                  </div>
+
+                  <h3 class="blog__entry__title"><a href="javascript:void(0);" [routerLink]="['/blog/', i]">Agriculture Products</a></h3>
+
+                  <span class="blog__entry__meta">Cows | 4 Comments</span>
+
+                  <p>
+                    Appetizing luscious savor hot senses. Effervescent the secure special. Kids spicey chance excellent
+                    proven too sleek handcrafted when makes intense.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end item -->
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a id="blog-more-btn" class="custom-btn big primary" href="javascript:void(0);">show more posts</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section -->
+</main>

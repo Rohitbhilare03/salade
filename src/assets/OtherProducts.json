@@ -1,0 +1,145 @@
+[{
+        "Pid": "1",
+        "Name": "The Indiano Spiced Chicken meal ",
+        "Ingredient": "Chicken marinated in Indian spices, Saute veggies, Brown rice and fresh tomato sauce",
+        "Price": "199",
+        "Category": "Non-Veg",
+        "Discription": "This meal is prepared with the traditional Indian herbs to combine protein & fiber with antioxidants for better immunity & muscle strength. Veggies contribute with vitamin C, K & B while balancing the low carb content.The Whole grains ensure that hunger doesn't bother you more.",
+        "Images": ["The Indiano Spiced Chicken meal.jpg"],
+        "MainImg": "The Indiano Spiced Chicken meal.jpg",
+        "Nutritians": {
+            "Quantity": "-",
+            "Calories": "350",
+            "Proteins": "10",
+            "Carbs": "30",
+            "Fats": "22",
+            "Fiber": "4"
+        }
+    },
+    {
+        "Pid": "2",
+        "Name": "The Carro Paneer meal",
+        "Ingredient": "Paneer marinated with Thai Peanut sauce, Salad, Brown rice & Fresh Carrot sauce",
+        "Price": "199",
+        "Category": "Veg",
+        "Discription": "Tenderly cooked chicken breast with Thai peanut sauce is a perfect merger of protein & healthy fats.This dish contains a lot of nutrients such as iron, vitamin B & C in it. This meal is good for both muscle building as well as fat loss by keep caloric count to minimal.",
+        "Images": ["The Caro Paneer meal.jpg"],
+        "MainImg": "The Caro Paneer meal.jpg",
+        "Nutritians": {
+            "Quantity": "-",
+            "Calories": "303",
+            "Proteins": "16",
+            "Carbs": "35",
+            "Fats": "13",
+            "Fiber": "4"
+        }
+    },
+    {
+        "Pid": "3",
+        "Name": "The Indiano Spiced Paneer meal ",
+        "Ingredient": "Paneer marinated in traditional Indian spices, Saute veggies, Brown rice and Fresh tomato sauce.",
+        "Price": "199",
+        "Category": "Veg",
+        "Discription": "This meal is prepared with the traditional Indian herbs to combine protein & fibre with antioxidants for better immunity & muscle strength. Veggies adds vitamin C, K & B while balancing the low carb content.The Whole grains present in this meal ensure that you don't feel the hunger for a longer period of time.",
+        "Images": ["The Cheese _ Herb meal.jpg"],
+        "MainImg": "The Cheese _ Herb meal.jpg",
+        "Nutritians": {
+            "Quantity": "-",
+            "Calories": "350",
+            "Proteins": "10",
+            "Carbs": "30",
+            "Fats": "22",
+            "Fiber": "4"
+        }
+    },
+    {
+        "Pid": "4",
+        "Name": "The Carro Chicken meal",
+        "Ingredient": "Chicken marinated in Thai Peanut sauce, Salad, Brown rice and Fresh carrot sauce.",
+        "Price": "199",
+        "Category": "Non-Veg",
+        "Discription": "The slowly cooked tender chicken breast with thai peanut sauce is a perfect amalgamation of protein & healthy fats. This dish contains a number of nutrients such as iron, vitamin B & C. This meal is good for both muscle building & fat loss with just the optimum amount of calories in it.",
+        "Images": ["The Indiano Spiced Chicken meal.jpg"],
+        "MainImg": "The Indiano Spiced Chicken meal.jpg",
+        "Nutritians": {
+            "Quantity": "-",
+            "Calories": "303",
+            "Proteins": "16",
+            "Carbs": "35",
+            "Fats": "13",
+            "Fiber": "4"
+        }
+    },
+    {
+        "Pid": "5",
+        "Name": "The Mexican Pyramid Sandwich",
+        "Ingredient": "Fresh lettuce, Rajma, Corn, Salsa, Coriander & Feta cheese.",
+        "Price": "199",
+        "Category": "Veg",
+        "Discription": "This sandwich has proportionate amount of macros and is good source of iron, copper, vitamin D & also the soluble fibre which plays a vital role in lowering the cholesterol level in body.",
+        "Images": ["The Mexican Pyramid Sandwich.jpg"],
+        "MainImg": "The Mexican Pyramid Sandwich.jpg",
+        "Nutritians": {
+            "Quantity": "-",
+            "Calories": "335",
+            "Proteins": "13",
+            "Carbs": "51",
+            "Fats": "9",
+            "Fiber": "7.5"
+        }
+    },
+    {
+        "Pid": "6",
+        "Name": "The Spinach & Hummus Sandwich",
+        "Ingredient": "Blanched spinach, Tomatoes, Chillies and Beetroot Hummus.",
+        "Price": "99",
+        "Category": "Veg-Sandwitch",
+        "Discription": "Spinach is a kind of superfood which is full of essential minerals & multi-vitamins like A & K. The creamy hummus gets it's color from beetroot which also adds folate, iron & potassium making it a complete health partner.",
+        "Images": ["The Spinach & Hummus Sandwich.jpg"],
+        "MainImg": "The Spinach & Hummus Sandwich.jpg",
+        "Nutritians": {
+            "Quantity": "-",
+            "Calories": "270",
+            "Proteins": "10",
+            "Carbs": "47",
+            "Fats": "5",
+            "Fiber": "7"
+        }
+    },
+    {
+        "Pid": "7",
+        "Name": "Thai Paneer Sandwich",
+        "Ingredient": "Fresh lettuce, Bell Peppers, Paneer and Thai Peanut sauce.",
+        "Price": "149",
+        "Category": "Veg-Sandwitch",
+        "Discription": "The exotica is a combination of protein & healthy fats. The bell pepper contained in it adds vitamin C. All in all it's a quick dose of nourishment to your muscles, heart and immunity.",
+        "Images": ["Thai Paneer sandwich.jpg"],
+        "MainImg": "Thai Paneer sandwich.jpg",
+        "Nutritians": {
+            "Quantity": "-",
+            "Calories": "335",
+            "Proteins": "14",
+            "Carbs": "46",
+            "Fats": "12",
+            "Fiber": "8"
+        }
+    },
+    {
+        "Pid": "8",
+        "Name": "The Pesto Chicken Sandwich",
+        "Ingredient": "Fresh lettuce, Onion, Tomatoes, Chicken & Basil Pesto sauce.",
+        "Price": "169",
+        "Category": "Non-Veg-Sandwitch",
+        "Discription": "Tender chicken with thick basil pesto is a unique combination of protein & vitamin A. Add this dish to your post workout meal to meet the body's protein requirement while satiating the nutritional hunger of your body.",
+        "Images": ["The Pesto Chicken sandwich.jpg"],
+        "MainImg": "The Pesto Chicken sandwich.jpg",
+        "Nutritians": {
+            "Quantity": "-",
+            "Calories": "345",
+            "Proteins": "18.5",
+            "Carbs": "47",
+            "Fats": "8",
+            "Fiber": "8"
+        }
+    }
+]

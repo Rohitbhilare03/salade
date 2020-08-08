@@ -1,0 +1,227 @@
+[
+  {
+    "Pid": "1",
+    "Name": "Living Greens Salad",
+    "Ingredient": "Microgreens, arugula, orange malta,feta cheese, sunflower seeds, flax seeds,honey balsamic dressing",
+    "Price": "235/320",
+    "Category": "Veg",
+    "Discription": "Greens have always been so healthy but not quite known for their taste! Hence, we decided to help them get an improved reputation. Presenting Living Greens with the goodness of Arugula accompanied by fresh Malta & Cranberries making it rich as ever.",
+    "Images": ["img_2069.jpg"],
+    "MainImg": "img_2069.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "208",
+      "Proteins": "7.4",
+      "Carbs": "17.1",
+      "Fats": "13.5",
+      "Fiber": "6.2"
+    }
+  },
+  {
+    "Pid": "2",
+    "Name": "Panzanell Salad",
+    "Ingredient": "Mix lettuce, lavash, grilled zucchini, bell pepper, olives, cherry tomatoes, croutons, artichoke, feta cheese, basil pesto dressing.    ",
+    "Price": "225/285",
+    "Category": "Veg",
+    "Discription": "",
+    "Images": [
+      "img_2088.jpg",
+      "img_2090.jpg",
+      "img_2098.jpg",
+      "img_2102.jpg",
+      "img_2110.jpg",
+      "img_2120.jpg",
+      "img_2124.jpg",
+      "img_2131.jpg"
+    ],
+    "MainImg": "img_2130.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "126",
+      "Proteins": "5.7",
+      "Carbs": "7.7",
+      "Fats": "8.4",
+      "Fiber": "3.4"
+    }
+  },
+  {
+    "Pid": "3",
+    "Name": "House of Lentils",
+    "Ingredient": "Mix lettuce, chickpeas, green moong, green chana, rajma, chopped onion, chopped tomato, chopped basil, pomegranate, coriander, buckwheat, lemonade dressing.    ",
+    "Price": "220/280",
+    "Category": "Veg",
+    "Discription": "Are you a vegetarian & looking for a protein source??? No worries, we have got you covered. Come, as the lentils get ready to welcome you to their very own house. The House Of Lentils❣",
+    "Images": ["img_2143.jpg", "img_2146.jpg"],
+    "MainImg": "img_2143.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "167",
+      "Proteins": "8.9",
+      "Carbs": "28.2",
+      "Fats": "2.9",
+      "Fiber": "10.5"
+    }
+  },
+  {
+    "Pid": "4",
+    "Name": "Detox Salad",
+    "Ingredient": "Chopped kale, chopped broccoli, red cabbage, grated carrot, coriander, cashew nuts, almonds, avocado, ginger honey vinaigrette.    ",
+    "Price": "245/325",
+    "Category": "Veg",
+    "Discription": "",
+    "Images": ["img_8992.jpg", "img_8993.jpg"],
+    "MainImg": "img_8992.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "214",
+      "Proteins": "8.1",
+      "Carbs": "17.9",
+      "Fats": "14",
+      "Fiber": "7"
+    }
+  },
+  {
+    "Pid": "5",
+    "Name": "Quinoa Queen Salad",
+    "Ingredient": "Kale, white quinoa, cherry tomatoes, mix dry seeds, cranberries, baked pita crisp, honey mustard dressing.    ",
+    "Price": "245/325",
+    "Category": "Veg",
+    "Discription": "#CleanEating #HealthyLiving #ProteinPacked..! Amidst the clutter of junk food it's time to treat yourself with some goodness. Quinoa has the reputation of housing loads of protein and is loved by those who look for a vegetarian source of it.",
+    "Images": ["img_2215.jpg", "img_2216.jpg","img_2226.jpg","img_2233.jpg"],
+    "MainImg": "img_2226.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "398",
+      "Proteins": "15.9",
+      "Carbs": "49.7",
+      "Fats": "15.7",
+      "Fiber": "6.7"
+    }
+  },
+  {
+    "Pid": "6",
+    "Name": "Thai Power Salad",
+    "Ingredient": "Mix lettuce, bell peppers, mushroom, chicken, sesame seeds, cilantro, sesame oil, sweet chilli dressing.    ",
+    "Price": "245/325",
+    "Category": "NonVeg",
+    "Discription": "When yummies come to meet you & health follows it, a  Thai Power is made!",
+    "Images": ["img_2153.jpg", "img_2160.jpg","img_2161.jpg","img_2163.jpg","img_2167.jpg"],
+    "MainImg": "img_2160.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "342",
+      "Proteins": "15.3",
+      "Carbs": "19.2",
+      "Fats": "23.3",
+      "Fiber": "9.1"
+    }
+  },
+  {
+    "Pid": "7",
+    "Name": "A Day in Mexico",
+    "Ingredient": "Mix lettuce, guacamole, rajma, corn, olives, jalapeno, feta cheese, lavash, sour cream, salsa dressing.",
+    "Price": "245/325",
+    "Category": "Veg",
+    "Discription": "",
+    "Images": ["img_2186.jpg", "img_2190.jpg"],
+    "MainImg": "img_2186.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "242",
+      "Proteins": "10.2",
+      "Carbs": "32.9",
+      "Fats": "8.5",
+      "Fiber": "11.1"
+    }
+  },
+  {
+    "Pid": "8",
+    "Name": "Cobb Salad",
+    "Ingredient": "Mix lettuce, hard boiled egg, avocado, tomato, rajma, sliced onion, thyme, mustard dressing. ",
+    "Price": "225/285",
+    "Category": "Veg",
+    "Discription": "",
+    "Images": ["img_2204.jpg", "img_2208.jpg"],
+    "MainImg": "img_2204.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "199",
+      "Proteins": "11.3",
+      "Carbs": "17.1",
+      "Fats": "9.8",
+      "Fiber": "8.5"
+    }
+  },
+  {
+    "Pid": "9",
+    "Name": "THe Hulkbuster salad",
+    "Ingredient": "Mix lettuce, arugula, green pepper, artichoke, mushroom, celery, spicy chilly dressing.    ",
+    "Price": "225/285",
+    "Category": "Veg",
+    "Discription": "",
+    "Images": ["img_2254.jpg", "img_2300.jpg","img_2247.jpg","img_2301.jpg"],
+    "MainImg": "img_2254.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "61",
+      "Proteins": "4.4",
+      "Carbs": "6.6",
+      "Fats": "2.7",
+      "Fiber": "2.6"
+    }
+  },
+  {
+    "Pid": "10",
+    "Name": "Summer is coming salad",
+    "Ingredient": "Arugula, watermelon, feta cheese, olives, mint, walnuts, black sesame seeds, honey balsamic dressing.",
+    "Price": "225/280",
+    "Category": "Veg",
+    "Discription": "",
+    "Images": ["img_2316.jpg","img_2303.jpg","img_2326.jpg"],
+    "MainImg": "img_2316.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "138",
+      "Proteins": "6.1",
+      "Carbs": "7.8",
+      "Fats": "10.3",
+      "Fiber": "3"
+    }
+  },
+  {
+    "Pid": "11",
+    "Name": "Senzu Beans Salad",
+    "Ingredient": "Mix lettuce, kale, rajma, chickpeas, green beans, corn, sliced red radish, piri piri coated tofu, rosemary potato, tobasco honey dressing.    ",
+    "Price": "245/325",
+    "Category": "Veg",
+    "Discription": "Hotness is here! With Peri Peri Tofu leading the way & rosemary potato tangled with the sliced red radish this exotica is an obvious choice for the spice lovers!",
+    "Images": ["img_2244.jpg", "img_2236.jpg","img_2221.jpg"],
+    "MainImg": "img_2236.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "78",
+      "Proteins": "3.6",
+      "Carbs": "13.3",
+      "Fats": "2.1",
+      "Fiber": "2.8"
+    }
+  },
+  {
+    "Pid": "12",
+    "Name": "Buckwheat Salad",
+    "Ingredient": "Kale, buckwheat, pomegranate, cranberries, flax seeds, pumpkin seed orange mustard dressing.    ",
+    "Price": "225/315",
+    "Category": "Veg",
+    "Discription": "With Buckwheat leading the way & Kale playing a perfect foil, this magical meal is your perfect health partner! Buckwheat salad #ReducesCholesterol #HeartHealth #Gluten-free #WeightLoss",
+    "Images": ["img_2274.jpg", "img_2280.jpg","img_2299.jpg"],
+    "MainImg": "img_2274.jpg",
+    "Nutritians": {
+      "Quantity": "200",
+      "Calories": "340",
+      "Proteins": "10.3",
+      "Carbs": "53",
+      "Fats": "11.9",
+      "Fiber": "10.8"
+    }
+  }
+]
