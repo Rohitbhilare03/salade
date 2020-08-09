@@ -1,3 +1,11 @@
 .gallery__item {
     padding: 5px;
 }
+
+.fit-image img {
+    object-fit: contain;
+}
+
+.gallery__item__inner img {
+    object-fit: cover;
+}

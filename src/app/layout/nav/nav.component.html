@@ -1,7 +1,9 @@
 <!-- start top bar -->
 <div id="top-bar" class="top-bar--style-1" [ngClass]="{'expanded': navigationClicked}">
   <div class="container">
-    <a id="top-bar__logo" class="site-logo" href="javascript:void(0);" [routerLink]="['/']"></a>
+    <a id="top-bar__logo" class="site-logo" href="javascript:void(0);" [routerLink]="['/']">
+      
+    </a>
     <a id="top-bar__navigation-toggler" [ngClass]="{'active': navigationClicked}" href="javascript:void(0);"
       (click)="navigationClicked = !navigationClicked"><span></span></a>
     <nav id="top-bar__navigation" role="navigation">
@@ -39,14 +41,13 @@
         <li [ngClass]="{'current': router.url == '/about'}">
           <a href="javascript:void(0);" [routerLink]="['/about']">About Us</a>
         </li>
-        <li [ngClass]="{'current': router.url == '/blog'}">
+        <!-- <li [ngClass]="{'current': router.url == '/blog'}">
           <a href="javascript:void(0);">Blog</a>
-          <!-- <a href="javascript:void(0);" [routerLink]="['/blog']">Blog</a> -->
-        </li>
+        </li> -->
         <li [ngClass]="{'current': router.url == '/contact'}">
           <a href="javascript:void(0);" [routerLink]="['/contact']">Contact Us</a>
         </li>
-        <li class="li-btn"><a class="custom-btn primary" href="#spy-get-in-touch">Subscribe Now</a></li>
+        <li class="li-btn"><a class="custom-btn primary" href="javascript:void(0);" (click)="openDialog()">Subscribe Now</a></li>
       </ul>
     </nav>
   </div>

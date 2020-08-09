@@ -1,0 +1,148 @@
+<h2 mat-dialog-title>Join Saladé Family!</h2>
+<mat-dialog-content class="mat-typography">
+  <form>
+    <div class="row grids">
+      <div class="col-md-12">
+        <mat-form-field class="example-full-width">
+          <mat-label>Your Name</mat-label>
+          <input
+            matInput
+            placeholder="John Doe"
+            name="name"
+            [(ngModel)]="subscribe.name"
+          />
+        </mat-form-field>
+      </div>
+      <div class="col-md-12">
+        <mat-form-field class="example-full-width">
+          <mat-label>Email</mat-label>
+          <input
+            matInput
+            type="email"
+            placeholder="john@doe.com"
+            name="email"
+            [(ngModel)]="subscribe.email"
+          />
+        </mat-form-field>
+      </div>
+      <div class="col-md-12">
+        <mat-form-field class="example-full-width">
+          <mat-label>Contact Number</mat-label>
+          <input
+            matInput
+            placeholder="John Doe"
+            name="contactNumber"
+            [(ngModel)]="subscribe.contactNumber"
+          />
+        </mat-form-field>
+      </div>
+      <div class="col-md-12">
+        <mat-form-field class="example-full-width">
+          <mat-label>Full Adress</mat-label>
+          <input
+            matInput
+            placeholder="Street 1, Landmark, City, Pincode"
+            name="address"
+            [(ngModel)]="subscribe.address"
+          />
+        </mat-form-field>
+      </div>
+      <div class="col-md-12">
+        <mat-form-field class="example-full-width">
+          <mat-label>Any Allergies</mat-label>
+          <input
+            matInput
+            placeholder="Please explain a bit"
+            name="allergies"
+            [(ngModel)]="subscribe.allergies"
+          />
+        </mat-form-field>
+      </div>
+      <div class="col-md-12 radio">
+        <div class="mb-10">Choose your subscription plan</div> 
+        <mat-radio-group
+          aria-label="Choose your subscription plan
+        "
+          name="subscriptionPlan"
+          [(ngModel)]="subscribe.subscriptionPlan"
+        >
+          <mat-radio-button value="7 Days">7 Days</mat-radio-button>
+          <mat-radio-button value="15 Days">15 Days</mat-radio-button>
+          <mat-radio-button value="30 Days">30 Days</mat-radio-button>
+        </mat-radio-group>
+      </div>
+      <div class="col-md-12 radio">
+        <div class="mb-10">Salads per day </div> 
+        <mat-radio-group
+          aria-label="Salads per day
+        "
+          name="saladPerDay"
+          [(ngModel)]="subscribe.saladPerDay"
+        >
+          <mat-radio-button value="1 Salad">1 Salad</mat-radio-button>
+          <mat-radio-button value="2 Salads">2 Salads</mat-radio-button>
+          <mat-radio-button value="3 Salads">3 Salads</mat-radio-button>
+        </mat-radio-group>
+      </div>
+      <div class="col-md-12 radio">
+        <div class="mb-10"
+          >Do you wish to have cold pressed juices along with the salad?
+        </div>
+        
+        <mat-radio-group
+          aria-label="Do you wish to have cold pressed juices along with the salad?
+        "
+          name="needColdPressedJuice"
+          [(ngModel)]="subscribe.needColdPressedJuice"
+        >
+          <mat-radio-button value="Yes">Yes</mat-radio-button>
+          <mat-radio-button value="No">No</mat-radio-button>
+          <mat-radio-button value="Maybe">Maybe</mat-radio-button>
+        </mat-radio-group>
+      </div>
+      <div class="col-md-12 radio">
+        <div class="mb-10">Do you wish to have add ons in your Salad? </div>
+        
+        <mat-radio-group
+          aria-label="Do you wish to have add ons in your Salad?
+        "
+          name="needAddOn"
+          [(ngModel)]="subscribe.needAddOn"
+        >
+          <mat-radio-button value="Yes">Yes</mat-radio-button>
+          <mat-radio-button value="No">No</mat-radio-button>
+          <mat-radio-button value="Maybe">Maybe</mat-radio-button>
+        </mat-radio-group>
+      </div>
+      <div class="col-md-12">
+        <mat-form-field class="example-full-width">
+          <mat-label>Any food Restriction by doctor? </mat-label>
+          <input
+            matInput
+            placeholder="Pickle, Cabbage etc."
+            name="foodRestriction"
+            [(ngModel)]="subscribe.foodRestriction"
+          />
+        </mat-form-field>
+      </div>
+      <div class="col-md-12 radio">
+        <div class="mb-10">Are you Diabetic? </div>
+        
+        <mat-radio-group
+          aria-label="Are you Diabetic?
+    "
+          name="areYouDiabetic"
+          class="radio-parent"
+          [(ngModel)]="subscribe.areYouDiabetic"
+        >
+          <mat-radio-button value="Yes">Yes</mat-radio-button>
+          <mat-radio-button value="No">No</mat-radio-button>
+        </mat-radio-group>
+      </div>
+    </div>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Confirm</button>
+</mat-dialog-actions>

@@ -3,7 +3,7 @@
   <div class="footer__inner">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4 text-mob-center">
           <div class="footer__item">
             <!-- <a class="site-logo" href="index.html">Saladé</a> -->
             <img
@@ -20,12 +20,61 @@
             <!-- <a class="site-logo name" href="index.html">Saladé</a> -->
             <p class="footer__copy">
               © 2019, Saladé. All rights reserved.<br />Designed by Rohit
-              Bhilare && Shlok Chavan
+              Bhilare & Shlok Chavan
             </p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="footer__item">
+        <div class="col-md-6 col-lg-4 text-mob-center">
+          <div class="footer__item text-mob-center">
+            <h3 class="footer__title">Connect Us</h3>
+            <div class="row">
+              <!-- <div class="col"> -->
+              <!-- footer__menu -->
+              <ul
+                class="d-flex"
+                style="width: 45%; justify-content: space-evenly;"
+              >
+                <li>
+                  <a target="_blank" href="https://www.youtube.com/channel/UCHTG4Me9udkhGjHE7UwHdhg?view_as=subscriber">
+                    <i
+                      class="fa fa-youtube"
+                      style="font-size: 24px;"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.instagram.com/salade.in/">
+                    <i
+                      class="fa fa-instagram"
+                      style="font-size: 24px;"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/company/salade">
+                    <i
+                      class="fa fa-linkedin"
+                      style="font-size: 24px;"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/Salade.in">
+                    <i
+                      class="fa fa-facebook"
+                      style="font-size: 24px;"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+              <!-- </div> -->
+            </div>
+          </div>
+          <!-- <div class="footer__item">
             <h3 class="footer__title">Additional menu</h3>
             <div class="row">
               <div class="col">
@@ -43,17 +92,17 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
-        <div class="col-md-12 col-lg-4">
+        <div class="col-md-12 col-lg-4 text-mob-center">
           <div class="footer__item">
             <h3 class="footer__title">Get a subscription</h3>
             <form class="footer__form form-horizontal" action="#">
               <p>
-                Get healthy food at your doorstep. Subscribe for good offers
+                Subscribe to get fresh salads delivered at your doorsteps
               </p>
               <div class="b-table">
-                <div class="cell v-bottom">
+                <!-- <div class="cell v-bottom">
                   <label class="input-wrp">
                     <input
                       class="textfield"
@@ -61,12 +110,13 @@
                       placeholder="Your E-mail"
                     />
                   </label>
-                </div>
+                </div> -->
                 <div class="cell v-bottom">
                   <button
                     class="custom-btn primary"
                     type="submit"
                     role="button"
+                    (click)="openDialog()"
                   >
                     subscribe
                   </button>

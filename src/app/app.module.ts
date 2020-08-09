@@ -8,7 +8,10 @@ import { NavComponent } from './layout/nav/nav.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { ContentLayoutComponent } from './layout/content-layout/content-layout.component';
 import { HttpClientModule } from '@angular/common/http';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
+import { TestimonialComponent } from './component/testimonial/testimonial.component';
+import { SubscriptionComponent } from './component/subscription/subscription.component';
+import { SharedModule } from './modules/shared/shared.module';
 
 
 @NgModule({
@@ -16,16 +19,20 @@ import {MatIconModule} from '@angular/material/icon';
     AppComponent,
     NavComponent,
     FooterComponent,
-    ContentLayoutComponent
+    ContentLayoutComponent,
+    TestimonialComponent,
+    SubscriptionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MatIconModule
+    MatIconModule,
+    SharedModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [SubscriptionComponent]
 })
 export class AppModule { }

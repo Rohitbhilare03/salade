@@ -1,3 +1,47 @@
 // * {
 //     background-color: darkblue;
 // }
+
+#top-bar.fixed {
+  background-color: #000 !important;
+}
+// :not(.custom-btn)
+#top-bar__navigation a {
+  color: white !important;
+}
+
+#top-bar__logo {
+  background-repeat: no-repeat;
+  height: 49px;
+  background-size: cover;
+  /* left: -29px; */
+  transform: scale(1.5);
+  margin-right: 10rem;
+  top: 10px;
+}
+
+.site-logo {
+  width: 150px !important;
+  position: relative;
+  //   justify-content: center;
+  //   align-items: initial;
+
+  //   &__icon {
+
+  object-fit: contain;
+  //   background-image: url(./../../../assets/img/logo/SaladeGreen.png) !important;
+  background-image: url(./../../../assets/img/logo/saladeFull.png) !important;
+  //   background-size: 100%;
+  //   }
+  //   &__text {
+  //     object-fit: contain;
+  //     background-image: url(./../../../assets/img/logo/saladenameWhite.png) !important;
+  //   }
+}
+
+
+@media only screen and (max-width:767px) {
+  #top-bar.fixed {
+      padding: 10px 10px 10px 30px;
+  }
+}

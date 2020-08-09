@@ -1,0 +1,19 @@
+.mb-10 {
+    margin-bottom: 10px;
+}
+.example-full-width {
+  min-width: 100% !important;
+}
+.grids .col-md-12 {
+    margin-bottom: 20px;
+    &.radio {
+        margin-bottom: 5rem;
+    }
+    
+}
+
+:host ::ng-deep {
+  .mat-radio-button {
+    margin-right: 20px !important;
+  }
+}

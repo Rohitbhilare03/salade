@@ -1,0 +1,20 @@
+    {
+        "Pid": "8",
+        "Name": "The Pesto Chicken Sandwich",
+        "Ingredient": "Fresh lettuce, Onion, Tomatoes, Chicken & Basil Pesto sauce.",
+        "Price": "169",
+        "Category": "Non-Veg-Sandwitch",
+        "Discription": "Tender chicken with thick basil pesto is a unique combination of protein & vitamin A. Add this dish to your post workout meal to meet the body's protein requirement while satiating the nutritional hunger of your body.",
+        "Images": [
+            "The Pesto Chicken sandwich.jpg"
+        ],
+        "MainImg": "The Pesto Chicken sandwich.jpg",
+        "Nutritians": {
+            "Quantity": "-",
+            "Calories": "345",
+            "Proteins": "18.5",
+            "Carbs": "47",
+            "Fats": "8",
+            "Fiber": "8"
+        }
+    }
